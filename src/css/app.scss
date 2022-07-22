@@ -1,0 +1,147 @@
+// app global css in SCSS form
+
+@media only screen and (min-width: 680px) {
+  h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+  }
+
+  .subtitle {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.5em;
+  }
+
+  .bgOrange {
+    background-color: #FF6600;
+  }
+
+  .textOrange {
+    color: #FF6600;
+  }
+  .bgGrey {
+    background-color: #D9D9D9;
+  }
+
+  .bgDark {
+    background-color: #2E2E2E;
+  }
+
+  .container {
+    padding: 10rem 0;
+  }
+
+  .card-container {
+    min-width: 300px;
+    max-width: 500px;
+  }
+
+  .epis {
+    position: absolute;
+    left: 0px;
+    width: 90vw;
+    max-width: 50vw;
+    min-width: 500px;
+    top: 60rem;
+  }
+
+  .dafix {
+    position: absolute;
+    right: 0px;
+    width: 90vw;
+    max-width: 40vw;
+    min-width: 500px;
+    top: 118rem;
+  }
+
+  .aco {
+    position: absolute;
+    left: 0px;
+    width: 40vw;
+    max-width: 400px;
+    min-width: 200px;
+    top: 170rem;
+  }
+
+  .container-aco {
+    margin: 10rem 0;
+  }
+  .container-social {
+    padding: 10rem 0;
+  }
+  .ferro {
+    max-width: 700px
+  }
+}
+@media only screen and (max-width: 680px) {
+  .epis {
+    position: absolute;
+    left: 0px;
+    width: 90vw;
+    max-width: 300px;
+    min-width: 100px;
+    top: 48rem;
+  }
+  .dafix {
+    position: absolute;
+    right: 0px;
+    width: 90vw;
+    max-width: 300px;
+    min-width: 100px;
+    top: 102rem;
+  }
+  .aco {
+    position: absolute;
+    left: 0px;
+    width: 90vw;
+    max-width: 300px;
+    min-width: 100px;
+    top: 162rem;
+  }
+
+  h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 4em;
+  }
+
+  .subtitle {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.5em;
+  }
+
+  .container {
+    padding: 10rem 10rem;
+  }
+  .container-aco {
+    padding: 0 2rem;
+  }
+  .container-social {
+    padding: 10rem 0;
+  }
+
+  .bgOrange {
+    background-color: #FF6600;
+  }
+
+  .textOrange {
+    color: #FF6600;
+  }
+  .bgGrey {
+    background-color: #D9D9D9;
+  }
+
+  .bgDark {
+    background-color: #2E2E2E;
+  }
+
+  .card-container {
+    min-width: 300px;
+    max-width: 500px;
+  }
+
+  .ferro {
+    max-width: 290px
+  }
+}
