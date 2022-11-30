@@ -24,7 +24,9 @@
           <b>Ferramentas Manuais, Máquinas e equipamentos:</b> Chave de fenda, malas, brocas, fresas, serras, trenas, furadeiras, parafusadeiras, serra mármore, compressores, betoneiras, esmerilhadeiras, geradores e muito mais.
         </div>
 
-        <div class="q-ma-md z-top">
+        <div class="q-ma-md z-top q-gutter-md">
+          <q-btn color="primary" class="col" rounded label="Baixe agora o catálogo" @click="onBaixar()" />
+
           <q-btn color="positive" class="q-px-xl" rounded @click="openLink()" label="Fale conosco" />
         </div>
       </div>
@@ -37,6 +39,9 @@ import { openURL } from 'quasar';
 
 export default {
   methods: {
+    onBaixar() {
+      openURL('https://drive.google.com/file/d/1NlnOXFQhcy1yjJah0wi3_dy6nyYui_Zh/view?usp=sharing')
+    },
     openLink() {
       let phoneNumber = '21994361660'
       let msg = "quero saber mais sobre ferro e aço."

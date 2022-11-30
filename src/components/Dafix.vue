@@ -36,7 +36,7 @@ import { openURL } from 'quasar';
 export default {
   methods: {
     onBaixar() {
-      openURL('https://drive.google.com/file/d/1Iif0Okw5EtLQqnfYiGDs09JufthPRKs9/view?usp=sharing')
+      openURL('https://drive.google.com/file/d/1oYWBBW2WfwIazYX2ifs9eC74rZjsOHIZ/view?usp=sharing')
     },
     openLink() {
       let phoneNumber = '21994361660'
